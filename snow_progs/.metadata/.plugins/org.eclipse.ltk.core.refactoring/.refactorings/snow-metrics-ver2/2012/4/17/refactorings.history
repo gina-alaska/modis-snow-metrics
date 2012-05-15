@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;snow-metrics-ver2/cal_indix_for_day.pro&apos; to &apos;cal_index_for_day.pro&apos;" description="Rename resource &apos;cal_indix_for_day.pro&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="cal_indix_for_day.pro" name="cal_index_for_day.pro" stamp="1335223210472" updateReferences="true"/>
+</session>

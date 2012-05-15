@@ -1,0 +1,4 @@
+file1='bbb'
+file2='ggg'
+.compile tst.pro
+tst,file1,file2

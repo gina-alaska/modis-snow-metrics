@@ -1,0 +1,45 @@
+1.raw data:
+  snow_daily: pod1.gina.alaska.edu:/pod/snow_products, /hub/pod/snow_products/original/SNOW_Daily/YYYY_Daily
+  8_Day_Snow_Products:pod1.gina.alaska.edu:/pod/snow_products,  /hub/pod/snow_products/original/8_Day_Snow_Products/YYYY
+
+
+2. process:
+script: Grid_Snow.bash $dir_data $dir_prod
+
+This script calls mrtmosaic and resample to process the daily data files.
+
+The Grid_Snow.bash takes two parameters: raw_data_directory, prod_data_directory, it
+
+produces 4 tif files for daily data, which are:
+                                 Fractional_Snow_cover.tif
+                                 Snow_Albedo_Daily_Tile.tif
+                                 Snow_Cover_Dailt_Tile.tif
+                                 Snow_Spatial_QA.tif,
+
+and 2 tif files for 8_day_composite data, which are:
+                                       eight_day_snow_cover.tif
+                                       maximun_snow_extend.tif.
+
+
+
+Grid_Snow_8day_seperate_to_subdirectory.bash
+
+this program copy 8-day composite date from $dir_data/$year to $dir_prod/$year. It takes three parameters: dir_data,year,dir_prod
+
+Grid_Snow_8day.bash takes two parameters: raw_data_directory, prod_data_directory  
+
+
+PBS scripts:
+
+copy_one_8daysnow_wrkdir.pbs 2010 A2010001
+
+
+qsub -v year=2010 Ayyyddd=A2010001 process_one_8daysnow.pbs
+
+3. steps to precess one year data
+
+a. copy data from /hub/pod/snow_product/daily/aqua/yyy to pacman.arsc.edu
+
+  scp -r 2009 jzhu@pacman.arsc.edu:/projects/UAFGINA/nps_snow/aqua/daily
+
+b. execute the bach script: process_aqua_oneyear_dailysnow.bash
