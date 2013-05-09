@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;snow-metrics-ver6/get_css_indics_v5.pro&apos; to &apos;get_css_indics_v6.pro&apos;" description="Rename resource &apos;get_css_indics_v5.pro&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="get_css_indics_v5.pro" name="get_css_indics_v6.pro" stamp="1358293639112" updateReferences="true"/>
+</session>

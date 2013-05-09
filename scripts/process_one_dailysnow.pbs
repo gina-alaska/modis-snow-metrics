@@ -4,24 +4,22 @@
 
 . $HOME/nps/cesu/snow_metrics/scripts/setup
 
-#cd /wrkdir/jzhu/nps/$year/$Ayyyyddd
-#cp $HOME/nps/cesu/snow_metrics/scripts/Grid_Snow_8day.bash .
-#example $dir_data $year $Ayyyyddd are: /wrkdir/jzhu/nps 2010 A2010001
+#example $year $Ayyyyddd are: 2010 A2010001
 #take two parameters: year Ayyyyddd from qsub -v year=$year,Ayyyyddd=$Ayyyyddd
 
 date
 
-wrk_dir=$WORKDIR/nps
+#wrk_dir=$CENTER/nps/daily
 
-des_dir=/projects/UAFGINA/nps_snow/daily/$year/done
+des_dir=/projects/UAFGINA/nps_snow/terra/daily/$year/tif
 
-cd $wrk_dir
+#cd $wrk_dir
 
-echo "start to process one 8-day data"
+echo "start to process one daily data"
 
 #echo $year $Ayyyyddd>/u1/uaf/jzhu/nps/cesu/snow_metrics/scripts/tst
 
-$HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow.bash /wrkdir/jzhu/nps/daily $year $Ayyyyddd
+$HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow.bash $CENTER/nps/daily $year $Ayyyyddd
 
 # $des_dir can not be seen in node, so can not copy directly
 
@@ -30,4 +28,5 @@ $HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow.bash /wrkdir/jzhu/nps/dai
 #rm -r /wrkdir/jzhu/nps/$year/$Ayyyyddd/*
 
 echo "finish processing the $wrk_dir/$year/$Ayyyyddd data" 
+
 date

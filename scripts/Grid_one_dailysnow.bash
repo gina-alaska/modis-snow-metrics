@@ -18,7 +18,7 @@
 if [ $# != 3 ]; then 
 
 echo
-echo "this script take two parameters: dir_data dir_prod"
+echo "this script take three parameters: dir_data year Ayyyyddd"
 echo
 exit 1
 fi

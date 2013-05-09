@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="0" y="0">
+<window height="768" width="1028" x="110" y="32">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="285"/>
@@ -33,28 +33,28 @@
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView" partName="Command Line">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="com.rsi.idldt.ui.views.CommandLineView" partName="Command Line">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="com.rsi.idldt.toolpalette.views.ExistingVisView" partName="Visualizations">
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug"/>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 <view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler"/>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
 <view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="Command History"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.rsi.idldt.toolpalette.ui.VisualizePerspective">
+<perspectives activePart="com.rsi.idldt.ui.views.CommandLineView" activePerspective="com.rsi.idldt.toolpalette.ui.VisualizePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
@@ -98,44 +98,30 @@
 <view id="com.rsi.idldt.ui.views.CommandLineView"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74882996" ratioLeft="480" ratioRight="161" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74882996" ratioLeft="480" ratioRight="161" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="com.rsi.idldt.ui.views.ProfilerView" label="Profiler"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@a60191" ratio="0.76397514" ratioLeft="123" ratioRight="38" relationship="4" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder appearance="3" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a60191" ratio="0.76397514" ratioLeft="123" ratioRight="38" relationship="4" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder appearance="3" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.45" ratioLeft="216" ratioRight="264" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="505" ratioRight="505" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="505" ratioRight="505" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
@@ -187,39 +173,27 @@
 <view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.698908" ratioLeft="448" ratioRight="193" relationship="4" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="bottom" ratio="0.698908" ratioLeft="448" ratioRight="193" relationship="4" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="*" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1500efd" ratio="0.7668394" ratioLeft="148" ratioRight="45" relationship="4" relative="bottom">
-<folder appearance="3" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1500efd" ratio="0.7668394" ratioLeft="148" ratioRight="45" relationship="4" relative="bottom">&#x0A;<folder appearance="3" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
 </folder>
 </info>
-<info folder="true" part="bottom_right" ratio="0.65940595" ratioLeft="666" ratioRight="344" relationship="2" relative="bottom">
-<folder appearance="2" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
+<info folder="true" part="bottom_right" ratio="0.65940595" ratioLeft="666" ratioRight="344" relationship="2" relative="bottom">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="202" ratioRight="808" relationship="2" relative="left"/>
@@ -290,7 +264,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="leftEditor2" ratio="0.09207921" ratioLeft="93" ratioRight="917" relationship="2" relative="left">
+<info folder="true" part="leftEditor2" ratio="0.09108911" ratioLeft="92" ratioRight="918" relationship="2" relative="left">
 <folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>

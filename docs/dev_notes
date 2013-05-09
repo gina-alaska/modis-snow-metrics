@@ -1,0 +1,51 @@
+1. version 1, restrict the first snow day and last snow day in a certain range,for example, 8/31<first_snow_day<12/31, and 2/1<ladt_snow_day<5/31. When doing check CSS, make sure CSS include consecutive snow during 1/31 to 2/15. first_snow_day, last_snow_day, firs_css_day, last_css_day must be snow,fraction >=50%, and albedo>=30%.
+
+problem: this makes glaciers areas go way.
+
+2. version 2, do not restrict first_snow_day and last_snow_day in certain range. The first_snow_day could be the first day of snow year and last_snow_day could be the last day of snow year if the pixel is glacier. Do not require css must include consecutive snow during 1/31 to 2/15.first_fss_day, last_fss_day are determined by "snow" flag. css_first_day, css_last_day are determined by "snow", >=50% of fraction, and >=30% of albedo.
+
+
+improved: This make gacier pixels come back.
+problem: some first_snow_days are too earlier, and some last_snow_days are too late. some glacier pixels have different between first_snow_day and css_first_day. 
+
+
+3. version 3, keep the same with version 2, except use "snow", fract >=50% to check first_snow_day, last_snow_day, first_consecutive_snow_day, last_consecutive_snow_day.
+
+improved: improve the estimation of four key days. 
+
+problem:  the problem in version 2 still exists. 
+
+ 
+4.version 3n, no limits for first_snow_day, last_snow_day, css_first_day, and css_last_day. The first_snow_day and last_snow_day are determined with "snow". The css_first_day and css_last_day are determined with "snow" and ">=50% fraction".
+
+improved: improved from version 3. 
+
+problem: still have the same problem as version 3 in glacier pixels.
+
+check the time series (both cover and reducing-cloud-cover), found they are in deed some too earlier snow points and some too late points, which make too earlier firs_snow_day and too late last_snow_day. There are "no-snow" points in the time series of the glacier pixel defined by glacier mask, which makes the first_snow_day and the last_snow_day are not equal to the first_day and the last_day, respectively,also makes the css_first_day not equal to the first_snow_day or/and the css_last_day not equal to the last_snow_day.
+
+
+Glacier pixels are determined by checking the time series. If the time series does not include "no-snow" and "lake" and "ocean", we think this pixel is the glacier pixel, and we let the all elements of the time series fot the glacier pixel equal to "snow".
+
+You have to consider to elimate "no-snow" point the the time series of the glacier pixels, and elimiate "snow" points in the time series of the low land pixels which supposed do not have too early or late snow day. But doing this is very dangerious. It may ruin the whole algorithm.
+  
+
+2012/6/18, jzhu
+
+working on ver4
+
+ver4 identify the multiple non-broken snow segments. The non-broken snow segment is defined as 14 days of consecutive snow segment. The css segment is defined as the longest no-broken snow segment. Modify the cloud day process for the glacier pixels.If the time series has no lake/ocean/no-snow days, this time series is identified as to present a glacier pixel. The mflg is defined in a new way. type flag are: ocen-1,land-2,lake-3. snow flag are: no-snow=1, only-brokensnow=2, consevutive snow=3. The mflag is composed of snow_flag and type flag. So no-snow ocean=11, no-snow land=12, no-snow lake=13, broken-snow ocean=21, broken-snow land=22, broken snow lake=23, css-snow ocean=31, css-snow land=32, css-snow lake=33. 
+cloud_reclassify_v4.pro, thinks missing, night, and fill as cloud days.
+
+
+2012/11/06, jzhu
+
+verson 5, modified from version 4. get_css_indics_v5.pro, modified from get_css_indics_v4.pro, treats 1/2 cloud days in the beginning and /or ending of un-broken snow cover periods as snow days. cloud_reclassify_v5.pro, modified from cloud_reclaffify_v4.pro. thinks misssing, no-decision, night,saturrated, and fill days as cloud days. please notic, when counting snow days, those cloudy days (1/2 cloud days) are not counted as snow days. Perhaps they should be converted into snow days, and couted as snow days.
+
+2012/1/26, version6, obtain get_css_indics_v6.pro modified from get_css_indics_v5.pro. When consider css length, count 1/2 of leading and ending cloud days as scss days, but do not re-classify the 1/2 cloud days into snow days. add a band to count total days of all css segments in the metrics band 14.
+
+2012/2/3, version 7, modified from version 6. found total days of all css segments some time are even smaller than the days of longest css segment. found the bug that I use the difference of edindex  and stindex to claculate days. This is not corrrect, because some days are miss in the one-year stacked file. so index difference is not equal to the days difference. Change into days difference, solve the problem.
+
+
+
+

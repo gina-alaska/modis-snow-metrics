@@ -1,8 +1,8 @@
 #!/bin/bash
 #jzhu,10/12/2011
-#This program process one year 8day snow data.one year 8-day data have already been 
-#saved in /wrkdir/jzhu/nps/yyyy. It requsts a node for each 8-day data, produces
-#the 8-day data and save into /projects/UAFGINA/nps_snow/8day/yyyy/done
+#This program process one year daily snow data. one year daily data have already been 
+#saved in /wrkdir/jzhu/nps/yyyy. It requsts a node for each daily data, produces
+#the daily data and save into /projects/UAFGINA/nps_snow/daily/yyyy/tif
 
 #inputs:year,stday,edday
 
@@ -19,11 +19,11 @@ edday=$3
 
 
 #set directories
-wrk_dir=/wrkdir/jzhu/nps
+wrk_dir=$CENTER/nps
 wrk_data=$wrk_dir/daily/$year
 prg_dir=$HOME/nps/cesu/snow_metrics/scripts
-org_dir=/projects/UAFGINA/nps_snow/daily/$year
-des_dir=/projects/UAFGINA/nps_snow/daily/$year/done
+org_dir=/projects/UAFGINA/nps_snow/terra/daily/$year
+des_dir=/projects/UAFGINA/nps_snow/terra/daily/$year/tif
 log_dir=$wrk_dir/logs
 
 

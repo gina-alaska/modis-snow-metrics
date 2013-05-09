@@ -17,14 +17,11 @@
 ;mid_bname (mid-year smoothed vector's band names),
 ;vmetrics (mid-year metrics).
  
-;jzhu, 5/5/2011, use the program provided by Amy to do moving smooth and calculate the crossover
- 
-;jzhu, 9/8/2011, ver9 processes the one-year-stacking file which includes ndvi and bq together.  
+  
 
 pro time_series_oneyear_dailysnow_kp,tmp_cover,tmp_fract,tmp_quali,tmp_albed,bnames,mid_cover,mid_fract,mid_bname,vmetrics
 
-   ;time_series_oneyear_dailysnow_kp,tmp_cover,tmp_fract,tmp_quali,tmp_albed,bnames,mid_cover,mid_fract,mid_bname,vmetrics
-;----mflg , -2= ocean, -1=snow free land or lake, 0=snow days, but no css, 1=valid data
+;time_series_oneyear_dailysnow_kp,tmp_cover,tmp_fract,tmp_quali,tmp_albed,bnames,mid_cover,mid_fract,mid_bname,vmetrics
 
 ;----1. determine if calculate the metrics of the time-series, if water, do not calculate the snow metrics
 

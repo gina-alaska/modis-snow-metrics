@@ -28,8 +28,8 @@ dir_tmp=$dir_snow/$snow_year
 
 rm -f $dir_output/${snow_year}_flist_fract
 rm -f $dir_output/${snow_year}_flist_cover
-rm -f $dir_output/${snow_year}_flist_qual
-
+rm -f $dir_output/${snow_year}_flist_quali
+rm -f $dir_output/${snow_year}_flist_albed
 
 #determine if current_year is least year
 
@@ -58,7 +58,8 @@ for tmp in `seq $csday $ceday`
 do
 ls $dir_snow/$current_year/A$current_year$tmp/*.Fractional_Snow_Cover.tif>>$dir_output/${snow_year}_flist_fract
 ls $dir_snow/$current_year/A$current_year$tmp/*.Snow_Cover_Daily_Tile.tif>>$dir_output/${snow_year}_flist_cover
-ls $dir_snow/$current_year/A$current_year$tmp/*.Snow_Spatial_QA.tif>>$dir_output/${snow_year}_flist_qual 
+ls $dir_snow/$current_year/A$current_year$tmp/*.Snow_Spatial_QA.tif>>$dir_output/${snow_year}_flist_quali 
+ls $dir_snow/$current_year/A$current_year$tmp/*.Snow_Albedo_Daily_Tile.tif>>$dir_output/${snow_year}_flist_albed
 done
 
 
@@ -66,7 +67,8 @@ for tmp in `seq $nsday $neday`
 do
 ls $dir_snow/$next_year/A$next_year$tmp/*.Fractional_Snow_Cover.tif>>$dir_output/${snow_year}_flist_fract
 ls $dir_snow/$next_year/A$next_year$tmp/*.Snow_Cover_Daily_Tile.tif>>$dir_output/${snow_year}_flist_cover
-ls $dir_snow/$next_year/A$next_year$tmp/*.Snow_Spatial_QA.tif>>$dir_output/${snow_year}_flist_qual
+ls $dir_snow/$next_year/A$next_year$tmp/*.Snow_Spatial_QA.tif>>$dir_output/${snow_year}_flist_quali
+ls $dir_snow/$next_year/A$next_year$tmp/*.Snow_Albedo_Daily_Tile.tif>>$dir_output/${snow_year}_flist_albed
 done
 
 exit 0

@@ -2,16 +2,15 @@
 #this script copy *.tif files in $WORKDIR/nps/yyyy/Ayyyyddd to project
 #inputs: org_dir, des_dir, y_list
 #example: 
-
-org_dir=/wrkdir/jzhu/nps/daily
-des_dir=/projects/UAFGINA/nps_snow/aqua/daily
-y_list="2009 2010"
+#org_dir=$CENTER/nps/daily
+#des_dir=/projects/UAFGINA/nps_snow/terra/daily
+#y_list="2009 2010"
 
 echo "begin copying *.tif files to /projects at `date`"
 
-#org_dir=$1
-#des_dir=$2
-#y_list=$3
+org_dir=$1
+des_dir=$2
+y_list=$3
 
 #org_dir=/wrkdir/jzhu/nps/daily
 #des_dir=/projects/UAFGINA/nps_snow/daily

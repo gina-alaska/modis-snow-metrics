@@ -1,0 +1,231 @@
+pro get_css_indics_v4, newcv, fract,albed, quali,bname,first_idx, last_idx, css_st, css_ed, stidx, edidx
+
+;get_css_indics2, newcv, fract, albed, quali, first_idx, last_idx, css_st, css_ed, stidx, edidx
+;input newcv, first snow day index, last snow day index, resonable css first index, resonable css last index
+;output first css index, last css index
+;use find_forward_consequtive_snow and find_backward_consecutive_snow.pro 
+;jzhu, 2012/6/8, get-css_indics_v4.pro is modified from get_css_indics_v2.pro. It identify multiple segements of css
+;in the time series. save the longest css, and also report how many segements. A css segment is defined as 14 days css days.
+
+
+;---initilize the first_css_idx and last_css_idx with -1
+
+stidx  = -1
+edidx  = -1
+
+num=n_elements(newcv)
+
+;---check if first_idx, css_st,  css_ed, last_idx are in increasing order
+;if (first_idx LE css_st and css_st LE css_ed and css_ed LE last_idx ) EQ 0 then begin
+;return
+;endif
+
+
+
+;--- check if there is un-breaked period between css_st and css_ed, if not, return first_css_idx=-1 and last_css_idx=-1
+;idx_nosnow = where(newcv(css_st:css_ed) EQ 25,no_snow_cnt)
+;if no_snow_cnt GT  then begin   ; do not get reasonable css first and last indics
+;return
+;endif
+
+;--- from first_idx to num-1,look for first_css_idx, otherwise, set first_css_idx=first_idx
+
+snow_num=css_ed-css_st + 1
+
+snow_num=14 ; 14 consecutive snow day as a css segment
+
+;---- define a array to hold segment sequence number and start and end indics
+
+segno    = intarr(20)
+segstidx=  intarr(20)
+segedidx=  intarr(20)
+seginfo=[segno:segno,segstidx:segstidx,segedidx:segedidx]
+
+
+  
+
+
+;---looking for the suitable snowpoints, must be snow, fraction of snow >=50%, and albedo >=30%
+
+;idx=where(newcv(first_idx:last_idx) EQ 200 and $
+;          fract(first_idx:last_idx) GE 50  and $
+;          albed(first_idx:last_idx) GE 30, cnt)
+
+idx=where(newcv(first_idx:last_idx) EQ 200 and $
+          fract(first_idx:last_idx) GE 50, cnt)
+
+
+if cnt GT 0 then begin  ; <1>, have possible first_css
+
+;assume first_idx+idx(0) to first_idx+idx( n_elements(idx)-1 ) points of newcv only have no-snow (no-snow, lake,ocean) or snow (rest of types)
+;go one by one check
+idx_css_ck_st=first_idx+idx(0)
+idx_css_ck_ed=first_idx+idx( n_elements(idx)-1 )
+
+idx_nosnow = where(newcv(idx_css_ck_st: idx_css_ck_ed) NE 25 or
+      newcv(idx_css_ck_st: idx_css_ck_ed) NE 37 or
+      newcv(idx_css_ck_st: idx_css_ck_ed) NE 39, cnt_nosnow)
+
+;---check no-snow point to determine how to divide the css segements
+
+k=0
+
+
+while k LT cnt_nosnow do begin  ;<2>
+
+if idx_nosnow(k) + 1 LT idx_nosnow(k+1) then begin ; <3> found a segement
+
+if idx_nosnow(k)-1 GE num_snow then begin; <4> found the segment is css segment
+   segno[M]=M
+   segidxst[M]=idx_css_ck_st
+   segidxed[m]=idx_css_ck_st + idx_nosnow(k)-1     
+
+   tmp_st=idx_csss_ck_st +idx_nosnow(k)+1
+   k=k+1
+endif else begin  ;<5>
+
+
+
+
+endelse ;<5>
+
+
+
+
+
+seg_idx_st=firs_idx+idx(0)
+
+while k LT cnt-1 do begin ; <2>
+
+curr_idx=first_idx+idx(k)
+
+if newcv(curr) NE 25 and newcv(curr) NE 37 and newcv(curr) NE 39 then begin; <3> this is snow point                 
+                 
+continue
+
+endif else begin ; curr is not snow point
+next_idx=first_idx+idx(k+1)
+
+newcv(curr_idx + 1) eq 
+
+
+                 
+                 
+for k=0, cnt_nosnow-1 do begin ; <3>  identify the css segments
+
+seg_idx_st = idx_css_ck_st +idx_nosnow(k)
+seg_idx_ed = 
+ 
+if idx_nosnow(k)+1 EQ idx_nosnow(k+1) then begin ;<4> next round
+
+break
+
+endif else begin ;check curr_idx
+
+if idx_nosnow(k)-1 GE num_snow then begin : <5> get the segment length
+
+segno[M]=idx_nosnow(k)
+
+segstidx=seg_idx_st
+
+segedidx=seg_idx_  
+
+
+endfor ;<3>
+
+endif ;<2>
+
+
+
+for k=0, cnt-1 do begin   ;<2>
+
+    
+startpt=idx(k) +first_idx
+
+if startpt + snow_num -1 GT last_idx then begin
+  break
+endif  
+
+idxv = where(  newcv(startpt:startpt+snow_num-1 ) NE 25  and   $
+               newcv(startpt:startpt+snow_num-1 ) NE 37  and   $
+               newcv(startpt:startpt+snow_num-1 ) NE 39 ,cntv, complement=idxnon )
+
+  if cntv GE snow_num then begin   ; <3> points from startpt to last_idx are all one of night,cloud,fill,or snow, found the sos
+   stidx =  startpt
+   
+   break
+  endif ; <3>
+
+
+
+endfor ;<2>
+
+endif  ;<1>
+
+
+if stidx GE first_idx and stidx LE last_idx then begin ; <8> only if stidx is valid , then look for edidx
+
+;----- find edidx from 0 to last_idx 
+
+;idx= where(newcv(first_idx:last_idx) EQ 200 and $
+;           fract(first_idx:last_idx) GE 50  and $
+;           albed(first_idx:last_idx) GE 30, cnt ) ; found the first snowpoint from last_idx to beginning
+
+
+idx= where(newcv(first_idx:last_idx) EQ 200 and $
+           fract(first_idx:last_idx) GE 50, cnt ) ; found the last snowpoint from first_idx to last_idx, backward looking
+
+
+  
+if  cnt GT 0 then begin  ;<1>  found the possible eos
+   
+for k =cnt-1, 0, -1 do begin  ; <2> 
+       
+    startpt = idx(k) + first_idx ; possible edidx point
+
+if startpt-snow_num+1 LT first_idx then begin
+
+  break
+  
+endif  
+    
+    idxv = where(newcv(startpt-snow_num+1:startpt ) NE 25  and   $
+                 newcv(startpt-snow_num+1:startpt ) NE 37  and   $
+                 newcv(startpt-snow_num+1:startpt ) NE 39 , cntv, complement=idxnon )
+                                                              
+  if cntv GE snow_num then begin   ; <3>found the sos
+   edidx = startpt
+   
+   break
+  endif  ;<3>
+
+endfor ;<2>
+
+endif  ;<1>
+
+endif ; <8>
+
+
+if stidx EQ -1 or edidx EQ -1 or stidx GT edidx then begin
+
+
+if stidx GT edidx then begin
+
+print, 'check why'
+
+endif
+
+stidx=-1
+edidx=-1
+
+;print,'check why can not locate css
+
+endif
+
+return
+
+end
+
+
+ 
+ 

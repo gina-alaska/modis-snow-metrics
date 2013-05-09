@@ -1,84 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="12" version="2.0">
+<workbench version="2.0">
 <workbenchAdvisor/>
-<window height="902" width="1140" x="29" y="49">
+<window height="717" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="160"/>
+<itemSize x="0"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
-<coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="268" y="28"/>
-<coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.rsi.idldt.ui.edit" itemType="typeToolBarContribution" x="150" y="28"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="84" y="32"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="46" y="28"/>
-<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="46" y="28"/>
-<coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
-<coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.rsi.idldt.proeditor.ProEditor" itemType="typeToolBarContribution" x="38" y="28"/>
-<coolItem id="group.help" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="250" y="59"/>
+<coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="753" y="59"/>
+<coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="465" y="59"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1334965613468" focus="true" label="Workspace - Debug">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_snowmetrics_tile_terra_aqua.pro" partName="smooth_calculate_snowmetrics_tile_terra_aqua.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/snow_metrics/snow_progs/snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro" title="smooth_calculate_snowmetrics_tile_terra_aqua.pro" tooltip="snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro"/>
-<editorState selectionLength="0" selectionOffset="6515"/>
-</editor>
-<editor focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="time_series_oneyear_dailysnow_kp.pro" partName="time_series_oneyear_dailysnow_kp.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/snow_metrics/snow_progs/snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro" title="time_series_oneyear_dailysnow_kp.pro" tooltip="snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro"/>
-<editorState selectionLength="0" selectionOffset="4082"/>
-</editor>
-<editor id="com.rsi.idldt.proeditor.ProEditor" name="snow_metrics_calcu.pro" partName="snow_metrics_calcu.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/snow_metrics/snow_progs/snow-metrics-ver2/snow_metrics_calcu.pro" title="snow_metrics_calcu.pro" tooltip="snow-metrics-ver2/snow_metrics_calcu.pro" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/snow-metrics-ver2/snow_metrics_calcu.pro"/>
-<editorState selectionLength="0" selectionOffset="394"/>
-</editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView" partName="Command Line">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState>
-<isTrackingSelection value="false"/>
-</viewState>
-</view>
 <view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="Command History">
-<viewState columnWidth0="200" grp200="0" grp205="1" showTreeView="1" sortColumn="1" sortDirection="128"/>
+<viewState columnWidth0="200" grp200="0" grp205="1" grp206="1" showTreeView="1" sortColumn="1" sortDirection="128"/>
+</view>
+<view id="com.rsi.idldt.console.IDLConsoleView" partName="IDL Console">
+<viewState/>
+</view>
+<view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="93" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -86,23 +46,52 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="303" org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="359" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.priorityField="19" org.eclipse.ui.ide.resourceField="93"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.debug.ui.DebugView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="com.rsi.idldt.console.IDLConsoleView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
-<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.team.svn.ui.menu.help"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
@@ -114,49 +103,85 @@
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
 <show_view_action id="org.eclipse.ui.console.ConsoleView"/>
 <show_view_action id="org.eclipse.ui.views.TaskList"/>
-<show_view_action id="com.rsi.idldt.ui.views.CommandLineView"/>
+<show_view_action id="com.rsi.idldt.console.IDLConsoleView"/>
 <show_view_action id="com.rsi.idldt.ui.views.CommandHistoryView"/>
 <show_view_action id="com.rsi.idldt.ui.views.ProfilerView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newENVIExtensionWizard"/>
 <new_wizard_action id="com.rsi.idldt.core.ui.newProjectWizard"/>
-<new_wizard_action id="com.rsi.idldt.core.ui.newUntitledProWizard"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
 <perspective_action id="com.rsi.idldt.ui.IDLPerspective"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="com.rsi.idldt.ui.views.ProfilerView"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.rsi.idldt.ui.views.ProfilerView"/>
+<view id="com.rsi.idldt.console.IDLConsoleView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<fastViewBars/>
-<viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@71eca460" orientation="256" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="0">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.4003984"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1227" ratioRight="409" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.5551232" ratioLeft="428" ratioRight="343" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="com.rsi.idldt.ui.views.ProfilerView" label="Profiler"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7" ratioLeft="315" ratioRight="135" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@46a2b249" ratio="0.25974026" ratioLeft="40" ratioRight="114" relationship="4" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@71eca460" ratio="0.50300604" ratioLeft="251" ratioRight="248" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@42f7f894" ratio="0.54278076" ratioLeft="203" ratioRight="171" relationship="4" relative="org.eclipse.ui.internal.ViewStack@71eca460">
+<folder activePageID="com.rsi.idldt.console.IDLConsoleView" appearance="2" expanded="2">
+<page content="com.rsi.idldt.ui.views.ProfilerView" label="Profiler"/>
+<page content="com.rsi.idldt.console.IDLConsoleView" label="IDL Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="56" ratioRight="168" relationship="4" relative="org.eclipse.ui.internal.ViewStack@71eca460"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="818" ratioRight="818" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -164,47 +189,10 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@18c6cbc" ratio="0.76836157" ratioLeft="136" ratioRight="41" relationship="4" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@103c504" ratio="0.5" ratioLeft="631" ratioRight="631" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18c6cbc">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@55ba1c2b" ratio="0.5" ratioLeft="67" ratioRight="67" relationship="4" relative="org.eclipse.debug.internal.ui.ToolsFolderView">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@12c81b7" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18c6cbc">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.editorss" ratio="0.3649374" ratioLeft="204" ratioRight="355" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="505" ratioRight="505" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
-<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -252,233 +240,63 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView" removed="true"/>
 <view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@154c054" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@154c054" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.6" ratioLeft="423" ratioRight="282" relationship="4" relative="left">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="bottom" ratio="0.38489208" ratioLeft="214" ratioRight="342" relationship="4" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="*" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@83de21" ratio="0.76950353" ratioLeft="217" ratioRight="65" relationship="4" relative="bottom">
-<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@83de21" ratio="0.76950353" ratioLeft="217" ratioRight="65" relationship="4" relative="bottom">&#x0A;<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom_right" ratio="0.7" ratioLeft="707" ratioRight="303" relationship="2" relative="bottom">
-<folder activePageID="com.rsi.idldt.ui.views.CommandHistoryView" appearance="2" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="bottom_right" ratio="0.7" ratioLeft="707" ratioRight="303" relationship="2" relative="bottom">&#x0A;<folder activePageID="com.rsi.idldt.ui.views.CommandHistoryView" appearance="2" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.27974784" ratioLeft="355" ratioRight="914" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.31505483" ratioLeft="316" ratioRight="687" relationship="2" relative="left"/>
 </mainWindow>
 </layout>
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/snow_metrics_calcu.pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/get_css_indics_v2.pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/snow-metrics-ver2/snow_metrics_calcu.pro"/>
-</editors>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="0">
-<position info="not_deleted" x="3977" y="0"/>
-</item>
-<item historyLabel="get_css_indics_v2.pro" index="2">
-<position info="not_deleted" x="3233" y="0"/>
-</item>
-<item historyLabel="get_css_indics_v2.pro" index="2">
-<position info="not_deleted" x="3260" y="0"/>
-</item>
-<item historyLabel="get_css_indics_v2.pro" index="2">
-<position info="not_deleted" x="3269" y="0"/>
-</item>
-<item historyLabel="get_css_indics_v2.pro" index="2">
-<position info="not_deleted" x="3324" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2265" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2486" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2507" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2527" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2547" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2560" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2573" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2587" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2643" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2703" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2736" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2798" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2851" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="1">
-<position info="not_deleted" x="2907" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="0">
-<position info="not_deleted" x="4138" y="0"/>
-</item>
-<item historyLabel="get_css_indics_v2.pro" index="2">
-<position info="not_deleted" x="3233" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="4082" y="18"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="4082" y="18"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="4337" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="4413" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="4563" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="4609" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="4655" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="6515" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="1134" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="1950" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="2001" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="4082" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="238" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="341" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="350" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="361" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="370" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="379" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="394" y="0"/>
-</item>
-<item historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="4082" y="0"/>
-</item>
-<item historyLabel="snow_metrics_calcu.pro" index="5">
-<position info="not_deleted" x="394" y="0"/>
-</item>
-<item historyLabel="smooth_calculate_snowmetrics_tile_terra_aqua.pro" index="3">
-<position info="not_deleted" x="6515" y="0"/>
-</item>
-<item active="true" historyLabel="time_series_oneyear_dailysnow_kp.pro" index="4">
-<position info="not_deleted" x="4082" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@71eca460"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -490,47 +308,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="snow_metrics_calcu.pro" tooltip="snow-metrics-ver2/snow_metrics_calcu.pro">
-<persistable path="/snow-metrics-ver2/snow_metrics_calcu.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="oneyear_snowdata_layer_subset.pro" tooltip="snow-metrics-ver6/oneyear_snowdata_layer_subset.pro">
+<persistable path="/snow-metrics-ver6/oneyear_snowdata_layer_subset.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="time_series_oneyear_dailysnow_kp.pro" tooltip="snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro">
-<persistable path="/snow-metrics-ver2/time_series_oneyear_dailysnow_kp.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_snowmetrics_tile_terra_only.pro" tooltip="snow-metrics-ver6/smooth_calculate_snowmetrics_tile_terra_only.pro">
+<persistable path="/snow-metrics-ver6/smooth_calculate_snowmetrics_tile_terra_only.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="get_css_indics_v2.pro" tooltip="snow-metrics-ver2/get_css_indics_v2.pro">
-<persistable path="/snow-metrics-ver2/get_css_indics_v2.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="read_snowdata.pro" tooltip="snow-metrics-ver6/read_snowdata.pro">
+<persistable path="/snow-metrics-ver6/read_snowdata.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="cloud_reclassify_v2.pro" tooltip="snow-metrics-ver2/cloud_reclassify_v2.pro">
-<persistable path="/snow-metrics-ver2/cloud_reclassify_v2.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="dayrange.pro" tooltip="snow-metrics-ver6/dayrange.pro">
+<persistable path="/snow-metrics-ver6/dayrange.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="find_forward_consequtive_snow_v2.pro" tooltip="snow-metrics-ver2/find_forward_consequtive_snow_v2.pro">
-<persistable path="/snow-metrics-ver2/find_forward_consequtive_snow_v2.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="dayrange.old.pro" tooltip="snow-metrics-ver6/dayrange.old.pro">
+<persistable path="/snow-metrics-ver6/dayrange.old.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_snowmetrics_tile_terra_aqua.pro" tooltip="snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro">
-<persistable path="/snow-metrics-ver2/smooth_calculate_snowmetrics_tile_terra_aqua.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="get_css_indics_v6.pro" tooltip="snow-metrics-ver6/get_css_indics_v6.pro">
+<persistable path="/snow-metrics-ver6/get_css_indics_v6.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="dayrange.pro" tooltip="snow-metrics-ver2/dayrange.pro">
-<persistable path="/snow-metrics-ver2/dayrange.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="get_css_indics_v5.pro" tooltip="snow-metrics-ver6/get_css_indics_v5.pro">
+<persistable path="/snow-metrics-ver6/get_css_indics_v5.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="find_backward_consequtive_snow_v2.pro" tooltip="snow-metrics-ver2/find_backward_consequtive_snow_v2.pro">
-<persistable path="/snow-metrics-ver2/find_backward_consequtive_snow_v2.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="snow_metrics_calcu.pro" tooltip="snow-metrics-ver6/snow_metrics_calcu.pro">
+<persistable path="/snow-metrics-ver6/snow_metrics_calcu.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="open_one_file.pro" tooltip="snow-metrics-ver2/open_one_file.pro">
-<persistable path="/snow-metrics-ver2/open_one_file.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="time_series_oneyear_dailysnow_kp.pro" tooltip="snow-metrics-ver6/time_series_oneyear_dailysnow_kp.pro">
+<persistable path="/snow-metrics-ver6/time_series_oneyear_dailysnow_kp.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="replace_cloud_by_aqua_v2.pro" tooltip="snow-metrics-ver2/replace_cloud_by_aqua_v2.pro">
-<persistable path="/snow-metrics-ver2/replace_cloud_by_aqua_v2.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="find_forward_consequtive_snow_v2.pro" tooltip="snow-metrics-ver6/find_forward_consequtive_snow_v2.pro">
+<persistable path="/snow-metrics-ver6/find_forward_consequtive_snow_v2.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="replace_cloud_by_aqua.pro" tooltip="snow-metrics-ver2/replace_cloud_by_aqua.pro">
-<persistable path="/snow-metrics-ver2/replace_cloud_by_aqua.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="find_backward_consequtive_snow_v2.pro" tooltip="snow-metrics-ver6/find_backward_consequtive_snow_v2.pro">
+<persistable path="/snow-metrics-ver6/find_backward_consequtive_snow_v2.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="open4files.pro" tooltip="snow-metrics-ver2/open4files.pro">
-<persistable path="/snow-metrics-ver2/open4files.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="cloud_reclassify_v5.pro" tooltip="snow-metrics-ver6/cloud_reclassify_v5.pro">
+<persistable path="/snow-metrics-ver6/cloud_reclassify_v5.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="start_batch.pro" tooltip="snow_pro_ver1/start_batch.pro">
-<persistable path="/snow_pro_ver1/start_batch.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="get_css_indics_v4.pro" tooltip="snow-metrics-ver5/get_css_indics_v4.pro">
+<persistable path="/snow-metrics-ver5/get_css_indics_v4.pro"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="read_snowdata.pro" tooltip="snow_pro_ver1/read_snowdata.pro">
-<persistable path="/snow_pro_ver1/read_snowdata.pro"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="get_css_indics_v5.pro" tooltip="snow-metrics-ver5/get_css_indics_v5.pro">
+<persistable path="/snow-metrics-ver5/get_css_indics_v5.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="find_forward_consequtive_snow_v2.pro" tooltip="snow-metrics-ver5/find_forward_consequtive_snow_v2.pro">
+<persistable path="/snow-metrics-ver5/find_forward_consequtive_snow_v2.pro"/>
 </file>
 </mruList>
 </workbench>

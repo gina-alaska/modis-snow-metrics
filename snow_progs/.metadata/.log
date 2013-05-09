@@ -240,3 +240,661 @@ Command-line arguments:  -os linux -ws gtk -arch x86
 
 !ENTRY org.eclipse.core.resources 2 10035 2012-04-26 10:27:09.999
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-05-18 10:28:43.686 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-05-18 10:29:09.398
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2012-05-18 10:31:53.322
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-18 10:31:53.322
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.ContentAssist,Command Line Content Assist,
+		Show Command Line Content Assist,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:showContentAssist),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@14790be)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@14790be)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-18 10:31:53.322
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.lowerCase,To Lower Case,
+		Changes the selection to lower case,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.CaseAction@16fb9fd)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.EraseToStart,Command Line Erase to Start,
+		Command Line Erase to Start,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:eraseToStart),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-18 10:31:53.322
+!MESSAGE A conflict occurred for CTRL+A:
+Binding(CTRL+A,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.Start,Command Line Goto Start,
+		Command Line Goto Start,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:setSelectionStart),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Select All,
+		Select all,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b9b03)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Select All,
+		Select all,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b9b03)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-18 10:31:53.322
+!MESSAGE A conflict occurred for CTRL+E:
+Binding(CTRL+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Quick Switch Editor,
+		Open the editor drop down list,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbookEditorsHandler@5de82a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+E,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.End,Command Line Goto End,
+		Command Line Goto End,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:setSelectionEnd),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Quick Switch Editor,
+		Open the editor drop down list,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbookEditorsHandler@5de82a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-05-21 15:19:22.644 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-05-21 15:19:26.485
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-06-11 10:22:00.142 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-06-11 10:22:21.503
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-10-15 14:46:51.004 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-10-16 14:01:01.558
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-10-16 14:01:01.558
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.ContentAssist,Command Line Content Assist,
+		Show Command Line Content Assist,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:showContentAssist),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b0a9e0)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b0a9e0)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-10-16 14:01:01.558
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.lowerCase,To Lower Case,
+		Changes the selection to lower case,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.CaseAction@160d2d1)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.EraseToStart,Command Line Erase to Start,
+		Command Line Erase to Start,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:eraseToStart),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-10-16 14:01:01.558
+!MESSAGE A conflict occurred for CTRL+A:
+Binding(CTRL+A,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.Start,Command Line Goto Start,
+		Command Line Goto Start,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:setSelectionStart),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Select All,
+		Select all,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b0b2b7)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Select All,
+		Select all,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@1b0b2b7)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-10-16 14:01:01.558
+!MESSAGE A conflict occurred for CTRL+E:
+Binding(CTRL+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Quick Switch Editor,
+		Open the editor drop down list,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbookEditorsHandler@1a54190,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.proEditorContext,,,system)
+Binding(CTRL+E,
+	ParameterizedCommand(Command(com.rsi.idldt.ui.commands.cmdLine.End,Command Line Goto End,
+		Command Line Goto End,
+		Category(com.rsi.idldt.ui.category.idl,IDL,IDL,true),
+		ActionDelegateHandlerProxy(null,com.rsi.idldt.actions.CommandLineKeyBindingAction:setSelectionEnd),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rsi.idldt.ui.cmdLineContext,,,system)
+Binding(CTRL+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Quick Switch Editor,
+		Open the editor drop down list,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbookEditorsHandler@1a54190,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-10-26 10:27:23.099 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-10-26 10:27:26.677
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-10-29 15:14:04.524 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-10-29 15:14:07.826
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-10-31 15:47:28.310 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-10-31 15:47:33.802
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-11-20 10:54:42.860 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-20 10:54:48.148
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2013-01-15 14:25:19.630 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /u1/uaf/jzhu/nps/cesu/snow_metrics/snow_progs -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2013-01-15 14:25:29.855
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2013-01-15 14:25:29.855
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2013-01-15 14:25:29.855
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2013-01-15 14:25:29.855
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2013-01-15 14:25:29.856
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2013-01-15 14:25:29.856
+!MESSAGE Unable to restore perspective: Workspace - Debug.
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.856
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2013-01-15 14:25:29.856
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.856
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.856
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.856
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 4 2013-01-15 14:25:29.857
+!MESSAGE Could not create view: com.rsi.idldt.ui.views.CommandLineView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: com.rsi.idldt.ui.views.CommandLineView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1247)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1217)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3207)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1416)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2253)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1287)
+!SUBENTRY 3 org.eclipse.ui 4 0 2013-01-15 14:25:29.860
+!MESSAGE Could not create view: com.rsi.idldt.ui.views.CommandLineView
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.860
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 4 2013-01-15 14:25:29.860
+!MESSAGE Could not create view: com.rsi.idldt.ui.views.CommandLineView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: com.rsi.idldt.ui.views.CommandLineView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1247)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1217)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3207)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1416)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2253)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1287)
+!SUBENTRY 3 org.eclipse.ui 4 0 2013-01-15 14:25:29.861
+!MESSAGE Could not create view: com.rsi.idldt.ui.views.CommandLineView
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.861
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.862
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.863
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2013-01-15 14:25:29.863
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2013-01-15 14:25:29.863
+!MESSAGE Could not find view: com.rsi.idldt.ui.views.CommandLineView
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2013-01-15 14:25:29.863
+!MESSAGE OK
+
+!ENTRY org.eclipse.ui 4 4 2013-01-15 14:26:33.542
+!MESSAGE Referenced part does not exist yet: com.rsi.idldt.console.IDLConsoleView.
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 14:27:05.774
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 14:27:05.778
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 14:27:05.780
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 14:27:05.783
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 14:27:05.784
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-01-15 15:56:02.324 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 15:56:08.233
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 15:56:08.246
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 15:56:08.250
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 15:56:08.252
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-01-15 15:56:08.253
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-01-16 10:57:51.690 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-01-16 10:57:58.302
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-01-16 10:57:58.338
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-01-16 10:57:58.342
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-01-16 10:57:58.346
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-01-16 10:57:58.347
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-01-18 13:40:29.429 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-01-18 13:40:37.848
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-01-18 13:40:37.883
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-01-18 13:40:37.887
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-01-18 13:40:37.891
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-01-18 13:40:37.893
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-01 14:11:28.781 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /u1/uaf/jzhu/nps/cesu/snow_metrics/snow_progs -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 14:11:34.878
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 14:11:34.901
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 14:11:34.904
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 14:11:34.906
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 14:11:34.907
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-01 15:20:52.930 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 15:20:58.067
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 15:20:58.074
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 15:20:58.076
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 15:20:58.078
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-01 15:20:58.079
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-04 10:09:55.068 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 10:10:06.071
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 10:10:06.121
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 10:10:06.126
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 10:10:06.130
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 10:10:06.131
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.ui.browser 2 0 2013-02-04 10:12:35.307
+!MESSAGE Internal browser is not available: XPCOM error -1041039104
+!SESSION 2013-02-04 11:33:23.965 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:33:29.170
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:33:29.177
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:33:29.180
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:33:29.182
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:33:29.183
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-04 11:50:26.059 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:50:31.685
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:50:31.736
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:50:31.740
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:50:31.744
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-04 11:50:31.746
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-07 09:06:32.603 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-07 09:16:51.020
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-07 09:16:51.034
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-07 09:16:51.040
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-07 09:16:51.042
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-07 09:16:51.043
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-02-12 11:56:29.080 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-02-12 11:57:00.612
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-02-12 11:57:00.643
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-02-12 11:57:00.647
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-02-12 11:57:00.651
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-02-12 11:57:00.653
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2013-04-01 14:13:15.955 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 1 0 2013-04-01 14:13:49.568
+!MESSAGE P4Java server factory loaded; version: 2010.1/275861; date: 2010/12/07
+
+!ENTRY com.perforce.team.core 1 0 2013-04-01 14:13:49.602
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2013-04-01 14:13:49.606
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2013-04-01 14:13:49.611
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2013-04-01 14:13:49.612
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper

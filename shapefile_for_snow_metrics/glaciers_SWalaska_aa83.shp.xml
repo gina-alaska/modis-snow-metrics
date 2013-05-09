@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Geological Survey in cooperation with U.S. Environmental Protection Agency, USDA Forest Service, and other Federal, State and local partners (see dataset specific metadata under Data_Set_Credit for details).</origin>
+				<pubdate>20060628</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Glaciers for the Southwest Alaska Park Units 1:63360</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Reston, Virginia</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">SWAN_Glaciers</ftname>
+				<onlink>http://science.nature.nps.gov/nrdata/</onlink>
+				<onlink Sync="TRUE">\\165.83.60.63\GisData\Albers\parks\swan\base\physical\statewid\SWAN_gl.gdb</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The glaciers for the southwest Alaska park units were derived from the NHD database described below.  The "Ice-mass" was reselected and dissolved to create one shapefile for all glaciers.
+
+The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.)  Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.</abstract>
+			<purpose>The NHD is a national framework for assigning reach addresses to water-related entities, such as industrial discharges, drinking water supplies, fish habitat areas, wild and scenic rivers. Reach addresses establish the locations of these entities relative to one another within the NHD surface water drainage network, much like addresses on streets. Once linked to the NHD by their reach addresses, the upstream/downstream relationships of these water-related entities--and any associated information about them--can be analyzed using software tools ranging from spreadsheets to geographic information systems (GIS). GIS can also be used to combine NHD-based network analysis with other data layers, such as soils, land use and population, to help understand and display their respective effects upon one another. Furthermore, because the NHD provides a nationally consistent framework for addressing and analysis, water-related information linked to reach addresses by one organization (national, state, local) can be shared with other organizations and easily integrated into many different types of applications to the benefit of all.</purpose>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate></sngdate>
+			</timeinfo>
+			<current>See dataset specific metadata.</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-158.146960</westbc>
+				<eastbc Sync="TRUE">-149.245139</eastbc>
+				<northbc Sync="TRUE">61.534173</northbc>
+				<southbc Sync="TRUE">56.877557</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-220097.860200</leftbc>
+				<rightbc Sync="TRUE">252465.382800</rightbc>
+				<bottombc Sync="TRUE">771291.582200</bottombc>
+				<topbc Sync="TRUE">1283879.436500</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>U.S. Department of the Interior, U.S. Geological Survey, 1999, Standards for National Hydrography Dataset (http://mapping.usgs.gov/standards/)</themekt>
+				<themekey>FWHYDROGRAPHY</themekey>
+				<themekey>Hydrography</themekey>
+				<themekey>Lake / Pond</themekey>
+				<themekey>glacier</themekey>
+			</theme>
+			<place>
+				<placekt>U.S. Department of Commerce, 1977, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions (Federal Information Processing Standards 10-3): Washington, D.C., National Institute of Standards and Technology.</placekt>
+				<placekey>US</placekey>
+				<placekey>Kenai Fjords National Park</placekey>
+				<placekey>Lake Clark National Park and Preserve</placekey>
+				<placekey>Katmai National Park and Preserve</placekey>
+				<placekey>Aniakchak National Monument and Preserve</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None.  Acknowledgment of the originating agencies would
+be appreciated in products derived from these data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Park Service, Southwest Alaska Network</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>240 W. 5th Avenue</address>
+					<city>Anchorage,</city>
+					<state>AK</state>
+					<postal>99501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>ask@usgs.gov</cntemail>
+				<hours>0800-1600 Eastern Time</hours>
+				<cntinst>In addition to the address above there are other ESIC offices throughout the country. A full list of these offices is at URL:  http://mapping.usgs.gov/esic/esic_index.html</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>See dataset specific metadata.</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Statements of attribute accuracy are based on accuracy statements made for U.S. Geological Survey Digital Line Graph (DLG) data, which is estimated to be 98.5 percent. One or more of the following methods were used to test attribute accuracy:  manual comparison of the source with hardcopy plots; symbolized display of the DLG on an interactive computer graphic system; selected attributes that could not be visually verified on plots or on screen were interactively queried and verified on screen.  In addition, software validated feature types and characteristics against a master set of types and characteristics, checked that combinations of types and characteristics were valid, and that types and characteristics were valid for the delineation of the feature.  Feature types, characteristics, and other attributes conform to the Standards for National Hydrography Dataset (USGS, 1999) as of the date they were loaded into the database.  All names were validated against a current extract from the Geographic Names Information System (GNIS).  The entry and identifier for the names match those in the GNIS.  The association of each name to reaches has been interactively checked, however, operator error could in some cases apply a name to a wrong reach.
+This statement is generally true for the most common sources of NHD data.  Other sources and methods may have been used to create or update NHD data.  In some cases, additional information may be found in the NHDMetadata table.</attraccr>
+		</attracc>
+		<logic>Points, nodes, lines, and areas conform to topological rules.  Lines intersect only at nodes, and all nodes anchor the ends of lines.  Lines do not overshoot or undershoot other lines where they are supposed to meet.  There are no duplicate lines.  Lines bound areas and lines identify the areas to the left and right of the lines.  Gaps and overlaps among areas do not exist.  All areas close.</logic>
+		<complete>The completeness of the data reflects the content of the sources, which most often are the published USGS topographic quadrangle and/or the USDA Forest Service Primary Base Series (PBS) map. The USGS topographic quadrangle is usually supplemented by Digital Orthophoto Quadrangles (DOQs). Features found on the ground may have been eliminated or generalized on the source map because of scale and legibility constraints. In general, streams longer than one mile (approximately 1.6 kilometers) were collected. Most streams that flow from a lake were collected regardless of their length. Only definite channels were collected so not all swamp/marsh features have stream/rivers delineated through them. Lake/ponds having an area greater than 6 acres were collected. Note, however, that these general rules were applied unevenly among maps during compilation. Reaches codes are defined on all features of type stream/river, canal/ditch, artificial path, coastline, and connector. Waterbody reach codes are defined on all lake/pond and most reservoir features. Names were applied from the GNIS database.  Detailed capture conditions are provided for every feature type in the Standards for National Hydrography Dataset available online through http://mapping.usgs.gov/standards/.
+This statement is generally true for the most common sources of NHD data. Other sources and methods may have been used to create or update NHD data. In some cases, additional information may be found in the NHDMetadata table.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Statements of horizontal positional accuracy are based on accuracy statements made for U.S. Geological Survey topographic quadrangle maps.  These maps were compiled to meet National Map Accuracy Standards.  For horizontal accuracy, this standard is met if at least 90 percent of points tested are within 0.02 inch (at map scale) of the true position.  Additional offsets to positions may have been introduced where feature density is high to improve the legibility of map symbols.  In addition, the digitizing of maps is estimated to contain a horizontal positional error of less than or equal to 0.003 inch standard error (at map scale) in the two component directions relative to the source maps.  Visual comparison between the map graphic (including digital scans of the graphic) and plots or digital displays of points, lines, and areas, is used as control to assess the positional accuracy of digital data.  Digital map elements along the adjoining edges of data sets are aligned if they are within a 0.02 inch tolerance (at map scale).  Features with like dimensionality (for example, features that all are delineated with lines), with or without like characteristics, that are within the tolerance are aligned by moving the features equally to a common point. Features outside the tolerance are not moved; instead, a feature of type connector is added to join the features.
+This statement is generally true for the most common sources of NHD data.  Other sources and methods may have been used to create or update NHD data.  In some cases, additional information may be found in the NHDMetadata table.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Statements of vertical positional accuracy for elevation of water surfaces are based on accuracy statements made for U.S. Geological Survey topographic quadrangle maps.  These maps were compiled to meet National Map Accuracy Standards.  For vertical accuracy, this standard is met if at least 90 percent of well-defined points tested are within one-half contour interval of the correct value.  Elevations of water surface printed on the published map meet this standard; the contour intervals of the maps vary.  These elevations were transcribed into the digital data; the accuracy of this transcription was checked by visual comparison between the data and the map.
+This statement is generally true for the most common sources of NHD data.  Other sources and methods may have been used to create or update NHD data.  In some cases, additional information may be found in the NHDMetadata table.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>The processes used to create and maintain high-resolution NHD data can be found in the table called "NHDMetadata".  Because NHD data can be downloaded using several user-defined areas, the process descriptions can vary for each download.  The NHDMetadata table contains a list of all the process descriptions that apply to a particular download.   These process descriptions are linked using the DuuID to the NHDFeatureToMetadata table which contains the com_ids of all the features within the download. In addition, another table, the NHDSourceCitation, can also be linked through the DuuID to determine the sources used to create or update NHD data.</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Converted NHD data to geodatabase format.  Conversion included assignment of FCodes, FDate, and Resolution attribute values; assignment of reach codes to associated features; replacement of branched reaches with linear reaches; merge of area features with identical classification that adjoin or overlap; split of large area features that exceed 100/25 sq. km. (depending on feature type) at subbasin boundaries; reduction of feature classes, feature types, and attribution to simplify data; merge of network flow features at vertical relationship locations; conversion of artificial paths along coastline to coastline feature type; addition of M coordinates and values to network flow features; addition of Z coordinates, but not values, to all feature geometry; addition of value added attributes; switch to primary flow navigation by network features (NHDFlowline, route.drain) in place of reach features; and elimination of metadata boundaries.</procdesc>
+				<procdate>2004</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Selected features from master NHD that fall within the ANIA KATM LACL subbasins. Projected to AK Albers NAD83 and loaded into this GDB.</procdesc>
+				<procdate>20060621</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>National Park Service, Alaska Regional Office</cntorg>
+						</cntorgp>
+						<cntpos>GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>240 W 5th AV</address>
+							<city>Anchorage</city>
+							<state>AK</state>
+							<postal>99501</postal>
+						</cntaddr>
+						<cntvoice>907.644.3555</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>NHD data was reselected for MINOR1 = 103 for "ice-mass".  Polygons were dissolved and cleaned up.</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Imported shapefile into a file geodatabase.</procdesc>
+				<procdate>20080610</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="SWAN_Glaciers">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">1872</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="SWAN_Glaciers">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1872</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">55.000000</stdparll><stdparll Sync="TRUE">65.000000</stdparll><longcm Sync="TRUE">-154.000000</longcm><latprjo Sync="TRUE">50.000000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">Alaska_Albers_Equal_Area_Conic</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+				<altres>0.000010</altres>
+				<altunits>meters</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>The National Hydrography Dataset is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of water, paths through which water flows, and related entities.  The information encoded about features includes a feature date, classification by type, other characteristics, a unique common identifier, the feature length or area, and (rarely) elevation of the surface of water pools and a description of the stage of the elevation.  For reaches, encoded information includes a reach code.  Names and their identifiers in the Geographic Names Information System, are assigned to most feature types.  The direction of flow is encoded for networked features.  The data also contains relations that encode metadata, and information that supports the exchange of future updates and improvements to the data.  The names and  definitions of all feature types, characteristics, and values are in the Standards for National Hydrography Dataset:  Reston, Virginia, U.S. Geological Survey, 1999.  The document is available online through http://mapping.usgs.gov/standards/.</eaover>
+			<eadetcit>The names and definitions of all feature types, characteristics, and values are in U.S. Geological Survey, 1999, Standards for National Hydrography Dataset High Resolution:  Reston, Virginia, U.S. Geological Survey.  The document is available online through http://mapping.usgs.gov/standards/.  Information about tables and fields in the data are available from the user documentation for the National Hydrography Dataset at http://nhd.usgs.gov.  The National Map - Hydrography Fact Sheet is also available at: http://erg.usgs.gov/isb/pubs/factsheets/fs06002.html.</eadetcit>
+		</overview>
+		<detailed Name="SWAN_Glaciers">
+			<enttyp>
+				<enttypl Sync="TRUE">SWAN_Glaciers</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">1872</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAJOR1</attrlabl>
+				<attalias Sync="TRUE">MAJOR1</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MINOR1</attrlabl>
+				<attalias Sync="TRUE">MINOR1</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAJOR2</attrlabl>
+				<attalias Sync="TRUE">MAJOR2</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MINOR2</attrlabl>
+				<attalias Sync="TRUE">MINOR2</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAJOR3</attrlabl>
+				<attalias Sync="TRUE">MAJOR3</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MINOR3</attrlabl>
+				<attalias Sync="TRUE">MINOR3</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Length</attrlabl>
+				<attalias Sync="TRUE">Shape_Length</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Length of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Area</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>507 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1 888 ASK USGS</cntvoice>
+				<cntvoice>1 888 275 8747</cntvoice>
+				<cntemail>ask@usgs.gov</cntemail>
+				<hours>0800-1600 Eastern Time</hours>
+				<cntinst>In addition to the address above there are other ESIC offices throughout the country. A full list of these offices is at URL: http://mapping.usgs.gov/esic/esic_index.html</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcGIS Geodatabase</formname>
+					<formvern>8.3</formvern>
+					<filedec>tar and uncompress</filedec>
+					<transize Sync="TRUE">4.947</transize>
+					<dssize Sync="TRUE">4.947</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080610</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>507 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1 888 ASK USGS</cntvoice>
+				<cntvoice>1 888 275 8747</cntvoice>
+				<cntemail>nhd@usgs.gov</cntemail>
+				<hours>0800-1600 Eastern Time</hours>
+				<cntinst>In addition to the address above there are other ESIC offices throughout the country. A full list of these offices is at URL:  http://mapping.usgs.gov/esic/esic_index.html</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri>
+		<CreaDate>20120419</CreaDate>
+		<CreaTime>13143400</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20080610</SyncDate>
+		<SyncTime>11133200</SyncTime>
+		<ModDate>20080610</ModDate>
+		<ModTime>11133200</ModTime>
+		<DataProperties>
+			<lineage>
+				<Process Name="FeatureClassToFeatureClass_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20080610" Time="103031">FeatureClassToFeatureClass T:\PDS\ShapeFiles\swan_glaciers.shp T:\PDS\fGeoDB\SWAN_gl.gdb SWAN_Glaciers # "MAJOR1 MAJOR1 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MAJOR1,-1,-1;MINOR1 MINOR1 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MINOR1,-1,-1;MAJOR2 MAJOR2 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MAJOR2,-1,-1;MINOR2 MINOR2 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MINOR2,-1,-1;MAJOR3 MAJOR3 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MAJOR3,-1,-1;MINOR3 MINOR3 true false false 6 Long 0 6 ,First,#,T:\PDS\ShapeFiles\swan_glaciers.shp,MINOR3,-1,-1" # T:\PDS\fGeoDB\SWAN_gl.gdb\SWAN_Glaciers</Process>
+			</lineage>
+		</DataProperties>
+		<ArcGISFormat>1.0</ArcGISFormat></Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">SWAN_Glaciers</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-220097.8602</westBL>
+					<eastBL Sync="TRUE">252465.3828</eastBL>
+					<northBL Sync="TRUE">1283879.4365</northBL>
+					<southBL Sync="TRUE">771291.5822</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-158.14696</westBL>
+			<eastBL Sync="TRUE">-149.245139</eastBL>
+			<northBL Sync="TRUE">61.534173</northBL>
+			<southBL Sync="TRUE">56.877557</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\165.83.60.63\GisData\Albers\parks\swan\base\physical\statewid\SWAN_gl.gdb</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">4.947</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">Alaska_Albers_Equal_Area_Conic</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="SWAN_Glaciers"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1872</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<mdDateSt Sync="TRUE">20080610</mdDateSt>
+</metadata>

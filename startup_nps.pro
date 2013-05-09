@@ -1,0 +1,5 @@
+ENVI, /RESTORE_BASE_SAVE_FILES
+
+PREF_SET, 'IDL_PATH', '<IDL_DEFAULT>:+/u1/uaf/jzhu/nps/cesu/bin', /COMMIT
+
+

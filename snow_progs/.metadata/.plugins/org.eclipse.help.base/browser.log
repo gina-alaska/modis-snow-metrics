@@ -3,3 +3,13 @@ Apr 19, 2012 15:28:58.49 NEW SESSION
 Apr 19, 2012 15:28:58.49 /usr/bin/which: no mozilla in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
 Apr 19, 2012 15:28:58.49 /usr/bin/firefox
 Apr 19, 2012 15:28:58.50 /usr/bin/which: no netscape in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
+
+Oct 17, 2012 09:37:22.28 NEW SESSION
+Oct 17, 2012 09:37:22.28 /usr/bin/which: no mozilla in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
+Oct 17, 2012 09:37:22.30 /usr/bin/firefox
+Oct 17, 2012 09:37:22.31 /usr/bin/which: no netscape in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
+
+Oct 26, 2012 13:30:51.23 NEW SESSION
+Oct 26, 2012 13:30:51.23 /usr/bin/which: no mozilla in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
+Oct 26, 2012 13:30:51.24 /usr/bin/firefox
+Oct 26, 2012 13:30:51.25 /usr/bin/which: no netscape in (/usr/local/pkg/idl/idl-7.1/idl71/bin:/usr/local/pgi/bin:/usr/openmpi/pgi/bin/:/usr/local/pkg/pgi/pgi-9.0.4/linux86-64/9.0-4/bin:/bin:/usr/bin:/usr/local/bin:/usr/share/pvm3/lib:/u1/uaf/jzhu/apps/mrt/bin:/u1/uaf/jzhu/apps/bashdb)
