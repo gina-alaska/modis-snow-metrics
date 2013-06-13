@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;snow-metrics-ver4/Default&apos;" deleteContents="false" description="Delete resource &apos;snow-metrics-ver4/Default&apos;" element1="/snow-metrics-ver4/Default" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1348789855622"/>
-</session>
