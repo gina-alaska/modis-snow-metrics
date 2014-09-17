@@ -47,7 +47,5 @@ verson 5, modified from version 4. get_css_indics_v5.pro, modified from get_css_
 2012/2/3, version 7, modified from version 6. found total days of all css segments some time are even smaller than the days of longest css segment. found the bug that I use the difference of edindex  and stindex to claculate days. This is not corrrect, because some days are miss in the one-year stacked file. so index difference is not equal to the days difference. Change into days difference, solve the problem.
 
 
-2013/6/13, final version 1.0 is ~/nps/cesu/snow_metrics_for_distr. idl codes are in codes directory. The directory includes main program and every required subroutines. No need to include sobroutines in bin directory if you want to build the program. distrbute the fianl version (ver1.0) to URL: git@gitorious.gina.alaska.edu:nps/snow-metrics.git
-
 
 

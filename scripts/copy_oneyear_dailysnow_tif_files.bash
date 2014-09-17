@@ -71,7 +71,7 @@ if [ $yyyy$mm$dd -ge  $styr$stmm$stdd -a $yyyy$mm$dd -le $edyr$edmm$eddd ]; then
 
 #$prg_dir/Grid_one_dailysnow_v2.bash $org_dir $year $mm $dd
 
-cp $org_dir/$yyyy/$yyyy.$mm.$dd/*.tif $des_dir
+cp $org_dir/$yyy.$mm.$dd/*.tif $des_dir
 
 fi
 

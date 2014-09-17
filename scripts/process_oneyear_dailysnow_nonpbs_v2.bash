@@ -29,11 +29,11 @@ eddd=${eddate:6:2}
 
 
 #set directories
-wrk_dir=/mnt/jzhu_scratch/nps/snow_products/terra/daily
-wrk_data=/mnt/jzhu_scratch/nps/snow_products/terra/daily/$year
+wrk_dir=/center/w/jzhu/nps/snow_metrics
+wrk_data=/center/w/jzhu/nps/snow_metrics/$year
 prg_dir=$HOME/nps/cesu/snow_metrics/scripts
-org_dir=/mnt/jzhu_scratch/nps/snow_products/terra/daily
-des_dir=/mnt/jzhu_scratch/nps/snow_products/terra/daily/$year/tif
+org_dir=/center/w/jzhu/nps/snow_metrics
+des_dir=/center/w/jzhu/nps/snow_metrics/$year/tif
 log_dir=$wrk_data/logs
 err_dir=$wrk_data/errors
 
@@ -85,5 +85,6 @@ fi
 
 done < $org_dir/$year/list
 
+echo "done the process!"
 
 exit 0

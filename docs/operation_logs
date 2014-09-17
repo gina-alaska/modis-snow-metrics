@@ -1,0 +1,41 @@
+8/25/2014
+produce snowyear_2014 metrics
+1. copy data from jiang@gina.alaska.edu/mnt/jzhu_scratch/nps/snow_products/terra/daily/2013 to jzhu@pacman15.arsc.edu/center/w/jzhu/nps/snow_metrics/2013
+
+from within jiang@gina.alaska.edu
+
+cd /mnt/jzhu_scratch/nps/snow_products/terra/daily
+
+scp -r 2013 jzhu@pacman15.arsc.edu/center/w/jzhu/nps/snow_metrics
+
+2. download 2014 terra data from ftp://n5eil01u.ecs.nsidc.org
+
+within jzhu@pacman15.arsc.edu
+
+cd /u1/uaf/jzhu/nps/cesu/snow_metrics/scripts
+
+edit download_MOD10A1.005.bash
+
+./download_MOD10A1.005_yearly.bash 2014
+
+terra data are stored at /center/w/jzhu/nps/snow_metrics/2014
+
+$CENTER=/center/w/jzhu
+
+3. process one year MOD10A1.A2014167.h12v10.005.2014169054508.hdf to tif files
+
+./process_oneyear_dailysnow_v2.bash year, styyyymmdd, edyyyymmdd
+
+note: styyymmdd and edyyyymmdd must be within same year, for example:2014, 20140101, 20140731
+
+it includes following:
+
+qsub -v year=$year,mm=$mm,dd=$dd $HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow_v2.pbs
+
+
+4.
+
+
+ 
+
+

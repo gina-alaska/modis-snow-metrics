@@ -1,4 +1,4 @@
-FUNCTION  Max3D, InData, ZLOCATION=ZLocation
+FUNCTION  Min3D, InData, ZLOCATION=ZLocation
 
 ; NAME
 ;   Max3D

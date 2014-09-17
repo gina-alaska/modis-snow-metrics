@@ -1,14 +1,9 @@
-2000-2011 snow data process:
-
 1.raw data:
   snow_daily: pod1.gina.alaska.edu:/pod/snow_products, /hub/pod/snow_products/original/SNOW_Daily/YYYY_Daily
   8_Day_Snow_Products:pod1.gina.alaska.edu:/pod/snow_products,  /hub/pod/snow_products/original/8_Day_Snow_Products/YYYY
 
 
-2013 raw data download:
-
 2. process:
-
 script: Grid_Snow.bash $dir_data $dir_prod
 
 This script calls mrtmosaic and resample to process the daily data files.
@@ -88,21 +83,3 @@ filen_albed=$4
 5. for 2011 and 2012 data. use version 2 to do it.
 
 Grid_one_dailysnow_v2.bash
-
-
-6. tile should be 28, not 26,
-
-add h20v00, h22v01 in 26-tile file to 28 tiles.
-
-
-2012-2013 data, use following program to process
-
-2013 raw data download:
-
-download_MOD10A1.005_yearly.bash calls subroutine:download_MOD10A1.005.bash
-
-
-process 2013 raw data into tif files
-
-process_oneyear_dailysnow_nonpbs_v2.bash calls subroutine:Grid_one_dailysnow_v2.bash
-

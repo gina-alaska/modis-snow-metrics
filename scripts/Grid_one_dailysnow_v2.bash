@@ -1,9 +1,9 @@
 #!/bin/bash
 #jzhu,11/18/2011, modify from Grid_Snow.csh, it produce one daily files and save the output files in $dir_prod/YYYY/A8dyyyyddd
-#input: dir_data, year, mm, dd
+#input: dir_data, year, Ayyyyddd
 #ouput: $dir_prod/$year/$Ayyyyddd/done
 
-#for example: dir_data=/wrkdir/jzhu/npis/daily
+#for example: dir_data=/wrkdir/jzhu/nps/daily
 #             year=2010
 #             mm=01
 #             dd=01
@@ -14,8 +14,6 @@
 #include environment variables for mrt
 
 . $HOME/nps/cesu/snow_metrics/scripts/setup
-
-script_dir=$PWD
 
 
 if [ $# != 4 ]; then 
@@ -39,9 +37,6 @@ exit 1
 fi
 
 
-
-
-
 #create a product directory
 
 #mkdir -p $dir_prod
@@ -58,7 +53,7 @@ cdir=$PWD
 
 #product file list of each day, one day has its file list called tmp.DDD
 
-for tile in `cat < $script_dir/tile_names.txt`
+for tile in `cat < ../../tile_names.txt`
 do
 x=`find $cdir -name MOD10A?.\*${tile}\*.hdf`
 if [ ! -z $x ];then

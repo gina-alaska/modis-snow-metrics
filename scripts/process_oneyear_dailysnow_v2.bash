@@ -32,8 +32,8 @@ eddd=${eddate:6:2}
 wrk_dir=$CENTER/nps
 wrk_data=$wrk_dir/snow_metrics/$year
 prg_dir=$HOME/nps/cesu/snow_metrics/scripts
-org_dir=/projects/UAFGINA/nps_snow/terra/daily/$year
-des_dir=/projects/UAFGINA/nps_snow/terra/daily/$year/tif
+org_dir=/center/w/jzhu/nps/snow_metrics/$year
+des_dir=/center/w/jzhu/nps/snow_metrics/$year/tif
 log_dir=$wrk_data/logs
 err_dir=$wrk_data/errors
 
@@ -74,12 +74,18 @@ if [ $yyyy$mm$dd -ge  $styr$stmm$stdd -a $yyyy$mm$dd -le $edyr$edmm$eddd ]; then
 
 mkdir -p $wrk_data/$line
 
-cp $org_dir/$line/*.hdf $wrk_data/$line
+#cp $org_dir/$line/*.hdf $wrk_data/$line
 
 
 #yyyy=`echo $line | cut -c1-4`
 #mm=`echo $line | cut -c6-7`
 #dd=`echo $line | cut -c9-10`
+
+#set up stout and stderr to a file
+
+LOG=$log_dir/daily_mosaic_resample_$line_${cur_date}.log
+ERR=$err_dir/daily_mosaic_resample_$line_${cur_date}.err
+exec 1>$LOG 2>$ERR
 
 qsub -v year=$year,mm=$mm,dd=$dd $HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow_v2.pbs
 fi

@@ -36,11 +36,11 @@ if [ ${pre_year} -ge 2011 ];then
 
 fi
 
-if [ ${snow_year} -gt 2012 ]; then
+#if [ ${snow_year} -gt 2012 ]; then
 
-./rename_filename_date2days.bash ${work_dir}/${snow_year}/tif
+#./rename_filename_date2days.bash ${work_dir}/${snow_year}/tif
 
-fi
+#if
 
 
 #create file lists.

@@ -1,11 +1,12 @@
 #!/bin/bash
-#PBS -q shared
+#PBS -q standard_4
 #PBS -l walltime=20:00:00
 cd $PBS_O_WORKDIR
-$HOME/nps/cesu/snow_metrics/scripts/setup
 
-#example $year $mm $dd are: 2011 01 01
-#take three parameters: year mm dd from qsub -v year=$year,mm=$mm,dd=$dd
+#$HOME/nps/cesu/snow_metrics/scripts/setup
+
+#example $year $mm $dd are: /center/w/jzhu/nps/snow_metrics 2011 01 01
+#take four parameters: ddir year mm dd from qsub -v ddir=$ddir,year=$year,mm=$mm,dd=$dd
 
 date
 
@@ -15,8 +16,8 @@ echo "start to mosaic,resample,and produce tif files for one-day daily data"
 
 #echo $year $Ayyyyddd>/u1/uaf/jzhu/nps/cesu/snow_metrics/scripts/tst
 
-$HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow_v2.bash $CENTER/nps/snow_metrics $year $mm $dd
+$HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow_v2.bash $ddir $year $mm $dd
 
-echo "finish processing the $wrk_dir/$year/$yyyy.$mm.$dd data" 
+echo "finish processing the $ddir/$year/$yyyy.$mm.$dd data" 
 
 date
