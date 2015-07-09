@@ -1,0 +1,20 @@
+stat_codes is used to produce statistic analysis fro snow paper.
+
+1. use stat_smooth_calculate_snowmetrics_tile_terra_only.pro to calculate the snow_cover, snow_fract, and snow metrics. it also produces middle snow_covers such as temporal(aj), snow cycle filtered(sc), and after glacial pixel filetered(gl) snow_covers.
+
+2. use function landmask_nan_by_mflg.pro to produce landmask_nan_by_mflg file.
+
+   launch idlde, load landmask_nan_by_mflg.pro, compile it.
+   envi to open ENVI environment.
+   load 2012_snowyear_metrics_stat1
+   load mflg band in display 1
+   open band math
+   load landmask_nan_by_mflg(b1)
+   choose b1=mflg
+   produce land mask file called landmask_nan_by_mflg.
+
+2. use producing_fig3.pro produce statistics for figure 3 of snow paper.
+
+3. use plot_fig3.pro to produce figure 3.
+
+4. 2102 data which were used in the snow_paper are stored in /projects/UAFGINA/nps_snow/snow_paper_data

@@ -33,9 +33,6 @@ it includes following:
 qsub -v year=$year,mm=$mm,dd=$dd $HOME/nps/cesu/snow_metrics/scripts/Grid_one_dailysnow_v2.pbs
 
 
-4.
-
-
  
 
 

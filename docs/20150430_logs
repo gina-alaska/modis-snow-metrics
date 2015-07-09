@@ -1,0 +1,17 @@
+20150430
+
+run statisitc prog to get the info for no data, find out why there is a odd no data line in around April in the figure 2 (daily data type for 2012 snowyear).
+
+1. copy stacked data files to workdir
+
+cp /projects/UAFGINA/nps_snow/snow_year_metrics/2012/2012_snow_* /center/w/jzhu/nps/snow_metrics/2012
+
+2. run stat program in idlde environment
+
+cd ~/nps/cesu/snow_metrics/stat_codes
+
+idlde
+
+open workspace /u1/uaf/jzhu/nps/cesu/snow_metrics
+
+
