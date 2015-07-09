@@ -1,0 +1,24 @@
+2015/7/8,
+copy snow_metrics to panda, create ssh for panda, cand copy ssh_pub to ssh://git@github.com/gina-alaska/modis-snow-metrics.git
+
+edit .git/config
+
+
+sitoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        fetch = +refs/heads/*:refs/remotes/origin/*
+        url = ssh://git@github.com/gina-alaska/modis-snow-metrics.git
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+
+git add .
+
+git commit -m "xxxxxxxxxxxxxxx"
+
+git push
+
+
