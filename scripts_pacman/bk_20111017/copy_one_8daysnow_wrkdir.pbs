@@ -1,0 +1,27 @@
+#!/bin/bash
+##PBS -q transfer          
+##PBS -l nodes=1:ppn=1
+##PBS -l walltime=12:00:00 
+##PBS -j oe
+
+#copy one 8day snow from /projects/UAFGINA/nps_snow/8day/$year/$Ayyyyddd to $WORKDIR/nps/$year/$Ayyyyddd
+
+year=$1
+
+Ayyyyddd=$2
+
+org_dir="/projects/UAFGINA/nps_snow/8day/$year/$Ayyyyddd"
+
+des_dir="$WORKDIR/nps/$year/$Ayyyyddd"
+
+mkdir -p $des_dir
+
+#find ${org_dir}/* -type f | batch_stage -i
+
+#/usr/bin/rcp -rp "bigdip-s:${org_dir}/* ${des_dir}"
+
+cp ${org_dir}/* ${des_dir}
+
+date
+
+

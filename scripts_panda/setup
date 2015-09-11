@@ -1,0 +1,13 @@
+#!/bin/bash
+# Fri Sep 24 16:26:21 AKDT 2010 - MODIS Reprojection Tool modifications
+MRT_HOME=$HOME/apps/mrt
+PATH=$PATH:$MRT_HOME/bin
+MRTDATADIR=$MRT_HOME/data
+script_home=~/projects/nps/modis_snow_metrics_v1dot0
+
+prg_dir=$script_home/scripts_panda
+
+export MRT_HOME PATH MRTDATADIR scripts_home prg_dir
+
+
+

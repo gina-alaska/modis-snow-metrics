@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -q shared
+#PBS -l walltime=20:00:00
+#input: snow_year 
+#qsub -v snow_year=snow_year 1syr_main.pbs
+#snow_year=$1
+
+cd $PBS_O_WORKDIR
+
+source ./1syr_env.bash
+
+#dir_raw="/projects/UAFGINA/nps_snow/terra/daily"
+
+#dir_out="/center/w/jzhu/nps/snow-metrics"
+
+./1syr_flist.bash $rawdata_dir $snow_year $work_dir
+
+dir_wrk=$work_dir/$snow_year
+
+./1syr_stack.bash $dir_wrk/${snow_year}_flist_cover $dir_wrk/${snow_year}_flist_fract $dir_wrk/${snow_year}_flist_quali $dir_wrk/${snow_year}_flist_albed 0 0 0 0
+
+./1syr_calmetrics.bash $dir_wrk/${snow_year}_snow_cover $dir_wrk/${snow_year}_snow_fract $dir_wrk/${snow_year}_snow_quali $dir_wrk/${snow_year}_snow_albed 

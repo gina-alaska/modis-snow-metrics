@@ -436,3 +436,39 @@ Contains: The project description file (.project) for 'stat_codes' is missing.  
 !MESSAGE Errors occurred while refreshing resources with the local file system.
 !SUBENTRY 3 org.eclipse.core.resources 4 567 2015-04-30 16:16:06.754
 !MESSAGE The project description file (.project) for 'stat_codes' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2015-08-28 16:28:16.545 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/stat_codes -os linux -ws gtk -arch x86_64
+
+!ENTRY com.perforce.team.core 2 0 2015-08-28 16:28:19.861
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1949511906:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2015-08-28 16:28:19.865
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1949511906:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.865
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.865
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.866
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.867
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.867
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.868
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.868
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2015-08-28 16:28:19.868
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper

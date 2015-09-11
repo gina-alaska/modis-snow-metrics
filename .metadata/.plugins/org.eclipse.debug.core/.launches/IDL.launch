@@ -1,4 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launchConfiguration type="com.rsi.idldt.launching.localIDLApplication">
-<stringAttribute key="com.rsi.idldt.launching.DEBUG_ID" value="2854272616"/>
-</launchConfiguration>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rsi.idldt.launching.localIDLApplication"/>

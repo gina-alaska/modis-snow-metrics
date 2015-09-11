@@ -1,60 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1028" x="110" y="32">
+<window height="1264" width="1605" x="1612" y="83">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="285"/>
+<itemSize x="0"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
-<coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="268" y="28"/>
-<coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.rsi.idldt.ui.edit" itemType="typeToolBarContribution" x="150" y="28"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="46" y="28"/>
-<coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
+<coolbarLayout>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="427" y="76"/>
+<coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="1165" y="76"/>
+<coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="776" y="77"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="group.help" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.rsi.idldt.proeditor.ProEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Visualize">
+<page aggregateWorkingSetId="Aggregate for window 1440812017950" focus="true" label="Workspace - &lt;Visualize&gt;">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="bandname2day.pro" partName="bandname2day.pro" path="/home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/stat_codes/bandname2day.pro" title="bandname2day.pro" tooltip="stat_codes/bandname2day.pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/stat_codes/bandname2day.pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="count_number_of_pixel.pro" partName="count_number_of_pixel.pro" title="count_number_of_pixel.pro" tooltip="/home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/stat_codes/count_number_of_pixel.pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/stat_codes/count_number_of_pixel.pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="127" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
-<view id="com.rsi.idldt.toolpalette.views.ToolPaletteView" partName="Tool Palette">
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.rsi.idldt.console.IDLConsoleView" partName="IDL Console">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView" partName="Command Line">
-<viewState/>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="Command History"/>
+<view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="180" org.eclipse.ui.ide.markerType="180" org.eclipse.ui.ide.pathField="240" org.eclipse.ui.ide.resourceField="180" org.eclipse.ui.ide.severityAndDescriptionField="600"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
 </view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="com.rsi.idldt.toolpalette.views.ExistingVisView" partName="Visualizations">
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug"/>
-<view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
-<view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="Command History"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 </views>
-<perspectives activePart="com.rsi.idldt.ui.views.CommandLineView" activePerspective="com.rsi.idldt.toolpalette.ui.VisualizePerspective">
+<perspectives activePart="com.rsi.idldt.console.IDLConsoleView" activePerspective="&lt;Visualize&gt;">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
@@ -95,7 +110,7 @@
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView" removed="true"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
@@ -169,7 +184,7 @@
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView" removed="true"/>
 <view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
@@ -201,9 +216,8 @@
 </layout>
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="com.rsi.idldt.toolpalette.internal.ui.VisualizePerspectiveFactory" id="com.rsi.idldt.toolpalette.ui.VisualizePerspective" label="Visualize"/>
+<descriptor descriptor="com.rsi.idldt.toolpalette.ui.VisualizePerspective" id="&lt;Visualize&gt;" label="&lt;Visualize&gt;"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
-<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
@@ -216,6 +230,9 @@
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.rsi.idldt.tasks.actionSets.Wizard"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.MacroActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
 <show_view_action id="org.eclipse.debug.ui.DebugView"/>
 <show_view_action id="com.rsi.idldt.ui.views.CommandLineView"/>
@@ -236,21 +253,21 @@
 <new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="com.rsi.idldt.ui.IDLPerspective"/>
-<view id="com.rsi.idldt.toolpalette.views.ToolPaletteView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
-<view id="com.rsi.idldt.toolpalette.views.ExistingVisView"/>
+<view id="com.rsi.idldt.console.IDLConsoleView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
 <fastViewBars/>
 <viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
 <folder activePageID="com.rsi.idldt.toolpalette.views.ToolPaletteView" appearance="2" expanded="2">
-<page content="com.rsi.idldt.toolpalette.views.ToolPaletteView" label="Tool Palette"/>
+<page content="com.rsi.idldt.toolpalette.views.ToolPaletteView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -268,11 +285,12 @@
 <folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -285,19 +303,23 @@
 </folder>
 </info>
 <info folder="true" part="belowVariables" ratio="0.5184136" ratioLeft="183" ratioRight="170" relationship="4" relative="bottom">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.rsi.idldt.console.IDLConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
+<page content="com.rsi.idldt.console.IDLConsoleView" label="IDL Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="*" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1d97d0d" ratio="0.7647059" ratioLeft="130" ratioRight="40" relationship="4" relative="belowVariables">
 <folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">
-<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<page content="com.rsi.idldt.ui.views.CommandLineView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -305,19 +327,173 @@
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@d7ffbf" ratio="0.6" ratioLeft="558" ratioRight="372" relationship="2" relative="bottom">
 <folder activePageID="com.rsi.idldt.toolpalette.views.ExistingVisView" appearance="2" expanded="2">
-<page content="com.rsi.idldt.toolpalette.views.ExistingVisView" label="Visualizations"/>
+<page content="com.rsi.idldt.toolpalette.views.ExistingVisView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24946237" ratioLeft="232" ratioRight="698" relationship="2" relative="leftEditor2"/>
+<info part="org.eclipse.ui.editorss" ratio="0.3335872" ratioLeft="438" ratioRight="875" relationship="2" relative="leftEditor2"/>
 </mainWindow>
 </layout>
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" uri="file:/home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/stat_codes/count_number_of_pixel.pro"/>
+</editors>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1187" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1224" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1262" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1339" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1360" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1441" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1521" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1605" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1681" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1770" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1787" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="655" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="686" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="750" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="777" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1187" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1202" y="20"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1224" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1240" y="20"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1262" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1339" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1360" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1441" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1521" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1605" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1681" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1770" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1487" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1489" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1569" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1571" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1649" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1651" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1732" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1733" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="655" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1187" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item active="true" historyLabel="count_number_of_pixel.pro" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -333,5 +509,9 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="bandname2day.pro" tooltip="stat_codes/bandname2day.pro">
+<persistable path="/stat_codes/bandname2day.pro"/>
+</file>
+</mruList>
 </workbench>

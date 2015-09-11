@@ -1,9 +1,0 @@
-#!/bin/bash
-# Fri Sep 24 16:26:21 AKDT 2010 - MODIS Reprojection Tool modifications
-MRT_HOME=$HOME/apps/mrt
-PATH=$PATH:$MRT_HOME/bin
-MRTDATADIR=$MRT_HOME/data
-export MRT_HOME PATH MRTDATADIR
-
-
-

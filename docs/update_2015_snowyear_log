@@ -1,0 +1,75 @@
+date: 2015/8/31
+
+task: produce 2015 snoyear (2014/8/1 to 2015/7/31) snow metrics
+
+process:
+
+1. download data on pacman13.gina.alaska.edu
+
+cd /u1/uaf/jzhu/nps/cesu/modis_snow_metrics_v1.0/scripts
+
+edit download_MOD10A1.005_yearly.bash, month=(8 9 10 11 12)
+
+./download_MOD10A1.005_yearly.bash 2014
+
+data are downloaded at /center/w/jzhu/nps/snow_metrics/2014
+
+
+download 2015 data on panda.x.gina.alaska.edu
+
+
+cd ~/projects/nps/modis_snow_metricsv1dot0/scripts
+
+edit download_MOD10A1.005_yearly.bash, month=(1 2 3 4 5 6 7 8)
+
+data are downloaded at /home/jzhu4/data/snow_metrics/2015
+
+
+2. process one year hdf files to tif files
+
+process 2015 01/01 to 07/31 on panda
+
+cd /home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/scripts_panda
+
+./process_oneyear_dailysnow_panda.bash 2015 20150101 20150731
+
+
+process 2014 08/01 to 12/31 on pacman.
+
+
+cd /u1/uaf/jzhu/nps/cesu/modis_snow_metrics_v1.0/scripts
+
+./process_oneyear_dailysnow_main_v2.bash
+
+
+3. copy 2014 08/01 to 12/31 from panda to pacman
+
+on panda, 
+
+cd /home/jzhu4/projects/nps/modis_snow_metrics_v1dot0/scripts_panda
+
+./scp_panda_pacman.bash
+
+This only copy *.tif file from panda to pacman
+
+
+
+
+
+4.  produce yearly-stacked file on pacman
+
+cd /u1/uaf/jzhu/nps/cesu/modis_snow_metrics_v1.0/scripts
+
+./1syr_main_v2.bash 2015
+
+final results are stored in /center/w/jzhu/nps/snow_metrics/2015 ($work_dir/$year)
+
+2015_snowyear_cover_v7,
+2015_snowyear_fract_v7,
+2015_snowyear_quali_v7,
+2015_snowyear_albed_v7, and their related hdr files.
+
+
+
+
+

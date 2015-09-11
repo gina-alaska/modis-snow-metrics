@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="1452" width="1706" x="367" y="25">
+<window height="1461" width="1702" x="516" y="36">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="0"/>
 </perspectiveBar>
 <coolbarLayout>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="277" y="64"/>
-<coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="368" y="64"/>
-<coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="502" y="64"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="427" y="76"/>
+<coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="1262" y="76"/>
+<coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="740" y="77"/>
 </coolbarLayout>
 <page focus="true" label="Workspace - &lt;Visualize&gt;">
 <editors>
@@ -192,7 +192,6 @@
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="com.rsi.idldt.toolpalette.ui.VisualizePerspective" id="&lt;Visualize&gt;" label="&lt;Visualize&gt;"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
-<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
@@ -206,6 +205,7 @@
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.MacroActionSet"/>
+<alwaysOnActionSet id="com.rsi.idldt.tasks.actionSets.Wizard"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
 <show_view_action id="org.eclipse.debug.ui.DebugView"/>
